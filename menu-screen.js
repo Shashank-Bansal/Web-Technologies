@@ -36,7 +36,7 @@ class MenuScreen {
   }
 
   loadOptions() {
-    fetch('').then(this._onSuccess, this._onFail);
+    fetch('https://github.com/Shashank-Bansal/Web-Technologies/blob/master/songs.json').then(this._onSuccess, this._onFail);
   }
 
   _onSuccess(success) {
